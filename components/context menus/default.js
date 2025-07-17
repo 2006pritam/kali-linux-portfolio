@@ -4,19 +4,19 @@ function DefaultMenu(props) {
     return (
         <div id="default-menu" className={(props.active ? " block " : " hidden ") + " cursor-default w-52 context-menu-bg border text-left border-gray-900 rounded text-white py-4 absolute z-50 text-sm"}>
             <a rel="noreferrer noopener" href="https://github.com/x3rcyb/kali-linux-portfolio" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">🌟🏗️</span> <span className="ml-2">Star this Project</span>
+                <span className="ml-5">🌟🏗️</span> <span className="ml-2">View Source Code</span>
             </a>
-            <a rel="noreferrer noopener" href="https://github.com/x3rcyb/kali-linux-portfolio/issues" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="https://github.com/pritammodak" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">🐞❗</span> <span className="ml-2">Report bugs</span>
             </a>
             <Devider />
-            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/aslamx3r/" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/pritammodak/" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">🙋‍♂️🔗</span> <span className="ml-2">Follow on <strong>Linkedin</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="https://github.com/x3rcyb" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="https://github.com/pritammodak" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">🐈🤝</span> <span className="ml-2">Follow on <strong>Github</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="mailto:x3rcyb@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="mailto:modakpritam06@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">👋📥</span> <span className="ml-2">Contact Me</span>
             </a>
             <Devider />

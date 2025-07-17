@@ -107,22 +107,22 @@ export class Gedit extends Component {
                             <span className="mt-2 font-medium">Contact Form</span>
                         </div>
                         
-                        <a href="https://www.linkedin.com/in/aslamx3r/" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/pritammodak/" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
                             <img src="/images/logos/linkedin.png" className="h-16 w-16" alt="LinkedIn"/>
                             <span className="mt-2">LinkedIn</span>
                         </a>
                         
-                        <a href="mailto:x3rcyb@gmail.com" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:modakpritam06@gmail.com" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
                             <img src="/images/logos/email.png" className="h-16 w-16" alt="Email"/>
                             <span className="mt-2">Email</span>
                         </a>
                         
-                        <a href="https://medium.com/@x3r" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
+                        <a href="https://medium.com/@pritammodak" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
                             <img src="/images/logos/medium.png" className="h-16 w-16" alt="Medium"/>
                             <span className="mt-2">Medium</span>
                         </a>
                         
-                        <a href="https://discord.gg/96fThXW3" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
+                        <a href="https://discord.gg/pritammodak" className="flex flex-col h-max justify-center items-center cursor-pointer hover:bg-white hover:bg-opacity-10 p-3 rounded-lg transition-all duration-200" target="_blank" rel="noopener noreferrer">
                             <img src="/images/logos/discord.png" className="h-16 w-16" alt="Discord"/>
                             <span className="mt-2">Discord</span>
                         </a>
@@ -232,8 +232,8 @@ export class Gedit extends Component {
                             
                             <div className="mt-6 text-center text-sm text-gray-400">
                                 <p>Or reach out directly:</p>
-                                <a href="mailto:x3rcyb@gmail.com" className="text-blue-400 hover:text-blue-300">
-                                    x3rcyb@gmail.com
+                                <a href="mailto:modakpritam06@gmail.com" className="text-blue-400 hover:text-blue-300">
+                                    modakpritam06@gmail.com
                                 </a>
                             </div>
                         </div>

@@ -12,11 +12,11 @@ export class Terminal extends Component {
         this.prev_commands = [];
         this.commands_index = -1;
         this.child_directories = {
-            root: ["projects", "personal-documents", "skills", "languages" , "interests"],
-            skills: ["Vulnerability Assessment" , "Troubleshooting", "Burpsuite", "Metasploit", "Wireshark", "Nmap", "Splunk"],
-            projects: ["Smart-Panachayat", "eviltwin-potable-device(IOT-project)"],
-            interests: ["Social Engineering", "Intresting Technologies", "IOT","Offensive Security"],
-            languages: ["Javascript", "Python","HTML"],
+            root: ["projects", "personal-documents", "skills", "languages", "interests"],
+            skills: ["Web Development", "AI/ML Research", "Frontend Development", "Backend Development", "Database Management", "Machine Learning", "Data Analysis"],
+            projects: ["AI-Powered-Web-App", "E-Commerce-Platform", "ML-Model-Collection", "Portfolio-Website"],
+            interests: ["Artificial Intelligence", "Web Technologies", "Machine Learning", "Software Development", "Google Career"],
+            languages: ["JavaScript", "Python", "Java", "HTML", "CSS"],
         };
         this.state = {
             terminal: [],
@@ -54,7 +54,7 @@ export class Terminal extends Component {
             <React.Fragment key={id}>
                 <div className="flex w-full">
                     <div className="flex">
-                        <div className=" text-blue-500 ">aslam@kali</div>
+                        <div className=" text-blue-500 ">pritam@kali</div>
                         <div className="text-white mx-px font-medium ">:</div>
                         <div className=" text-ubt-blue ">{this.current_directory}</div>
                         <div className="text-white mx-px font-medium mr-1 ">$</div>
@@ -277,11 +277,11 @@ export class Terminal extends Component {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-aslam, todoist, trash, settings, sendmsg ]";
                 }
                 break;
-            case "about-aslam":
+            case "about-pritam":
                 if (words[0] === "." || words.length === 0) {
-                    this.props.openApp("about-aslam");
+                    this.props.openApp("about-pritam");
                 } else {
-                    result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-aslam, todoist, trash, settings, sendmsg ]";
+                    result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-pritam, todoist, trash, settings, sendmsg ]";
                 }
                 break;
             case "terminal":
