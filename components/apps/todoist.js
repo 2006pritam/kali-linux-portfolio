@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Todoist() {
     return (
-        <iframe src="https://todoist.com/showProject?id=220474322" frameBorder="0" title="Todoist" className="h-full w-full"></iframe>
+        <iframe src="https://todoist.com/showProject?id=220474322" frameBorder="0" title="Todoist" className="h-full w-full" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
         // just to bypass the headers 🙃
     )
 }

@@ -2,9 +2,8 @@ import React from 'react'
 
 export default function VsCode() {
     return (
-        <iframe src="https://github1s.com/x3rcyb/kali-linux-portfolio/" frameBorder="0" title="VsCode" className="h-full w-full bg-ub-cool-grey"></iframe>
+        <iframe src="https://github1s.com/x3rcyb/kali-linux-portfolio/" frameBorder="0" title="VsCode" className="h-full w-full bg-ub-cool-grey" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
         // this is not my work, but it's amazing!
-        //hai
         // Here is the link to the original repo: https://github.com/conwnet/github1s
     )
 }

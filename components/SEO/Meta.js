@@ -4,7 +4,7 @@ import Head from 'next/head';
 export default function Meta() {
     return (
         <Head>
-           /* Primary Meta Tags */
+           {/* Primary Meta Tags */}
             <title>Mohd Aslam - Cyber Security Researcher</title>
             <meta charSet="utf-8" />
             <meta name="title" content="mohd aslam Portfolio - Computer Engineering Student" />
@@ -19,14 +19,14 @@ export default function Meta() {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#E95420" />
 
-            /* Search Engine */
+            {/* Search Engine */}
             <meta name="image" content="images/logos/fevicon.png" />
-            /* Schema.org for Google */
+            {/* Schema.org for Google */}
             <meta itemProp="name" content="mohd aslam Portfolio - Computer Engineering Student" />
             <meta itemProp="description"
                 content="mohd aslam's (x3rcyb) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
-            /* Twitter */
+            {/* Twitter */}
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="mohd aslam Portfolio - Computer Engineering Student" />
             <meta name="twitter:description"
@@ -34,7 +34,7 @@ export default function Meta() {
             <meta name="twitter:site" content="x3rcyb" />
             <meta name="twitter:creator" content="x3rcyb" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
-            /* Open Graph general (Facebook, Pinterest & Google+) */
+            {/* Open Graph general (Facebook, Pinterest & Google+) */}
             <meta name="og:title" content="mohd aslam Portfolio - Computer Engineering Student" />
             <meta name="og:description"
                 content="mohd aslam's (x3rcyb) Personal Portfolio Website. Made with kali linux (Linux) theme by Next.js and Tailwind CSS." />
