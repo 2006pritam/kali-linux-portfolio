@@ -42,7 +42,7 @@ export class Gedit extends Component {
         this.setState({ sending: true });
 
         try {
-            const response = await fetch('https://formbold.com/s/6lplK', {
+            const response = await fetch('https://formspree.io/f/xpznvqko', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
